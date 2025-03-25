@@ -105,6 +105,7 @@ body {
   color: var(--text);
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
+  scroll-behavior: smooth;
 }
 .text-center heading1 exp-head {
   color: white;
@@ -235,7 +236,7 @@ html {
 }
 
 .navbar {
-  color: #000000;
+  color: #000;
   background-color: #fff;
   z-index: 2;
   box-shadow: 0 2px 2px rgb(230, 230, 230);
@@ -243,7 +244,6 @@ html {
 
 /* Dark Mode toggle switch button */
 .dark_toggler {
-  -webkit-appearance: none;
   position: relative;
   cursor: pointer;
   width: 100px;
@@ -746,19 +746,15 @@ Rotate Transition in foote Soical Icon
   box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
 }
 
-.rounded-social-buttons .social-button.twitter:hover,
-.rounded-social-buttons .social-button.twitter:focus {
-  color: #000;
-  background: #2b2a2A;
-}
-
 .rounded-social-buttons .social-button.linkedin {
   background: #2b2a2A;
   box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
 }
 
 .rounded-social-buttons .social-button.linkedin:hover,
-.rounded-social-buttons .social-button.linkedin:focus {
+.rounded-social-buttons .social-button.linkedin:focus,.rounded-social-buttons .social-button.twitter:hover,
+.rounded-social-buttons .social-button.twitter:focus,.rounded-social-buttons .social-button.instagram:hover,
+.rounded-social-buttons .social-button.instagram:focus {
   color: #000;
   background: #2b2a2A;
 }
@@ -766,12 +762,6 @@ Rotate Transition in foote Soical Icon
 .rounded-social-buttons .social-button.instagram {
   background: #2b2a2A;
   box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
-}
-
-.rounded-social-buttons .social-button.instagram:hover,
-.rounded-social-buttons .social-button.instagram:focus {
-  color: #000;
-  background: #2b2a2A;
 }
 
 .rounded-social-buttons .social-button.github {
